@@ -7,6 +7,7 @@ export const Editor = () => {
   const editor = useEditor({
     editorProps: {
       attributes: {
+        style: 'padding-left: 50px; padding-right: 56px;',
         class: 'focus:outline-none print:border-0 bg-[#fff] border border-[#ccc] flex flex-col min-h-[1054px] w-[816px] pt-10 pr-14 pb-10 cursor-text'
       },
     },
