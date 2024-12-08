@@ -1,7 +1,7 @@
 const Home = () => {
   return (
     <div className='flex min-h-screen items-center justify-center'>
-      <p className='logo'>nt-Dox</p>
+      <p>nt-Dox</p>
     </div>    
   )
 }
