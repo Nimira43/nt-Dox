@@ -1,7 +1,12 @@
-const DocumentsLayout = () => {
+interface DocumentLayoutProps {
+  children: React.ReactNode
+}
+
+const DocumentsLayout = ({ children }: DocumentLayoutProps) => {
   return ( 
-    <div>
-      Documents Layout
+    <div className='flex flex-col gap-y-4'>
+      <nav className='w-full bg-[#012222] text-[#fffaf0]'>Document Navbar</nav>
+      {children}
     </div>
    )
 }
