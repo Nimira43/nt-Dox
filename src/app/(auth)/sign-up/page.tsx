@@ -1,7 +1,7 @@
 const SignUpPage = () => {
   return ( 
     <div>
-      Sign Up
+      Sign Up Page
     </div>
    )
 }
