@@ -17,7 +17,7 @@
   color: #fffaf0;
   background-color: #012222;
   padding: 0 15px;
-  border: 6px dotted #fffaf0;
+  border: 6px dashed #fffaf0;
   border-radius: 20px;
   box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.9);
 }
