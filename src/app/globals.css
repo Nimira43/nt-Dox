@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Doto:wght@100..900&family=League+Spartan:wght@100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: 'League Spartan', sans-serif;
+}
+
+.logo {
+  font-family: 'Doto', sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #fffaf0;
+  background-color: #012222;
+  padding: 0 15px;
+  border: 6px dotted #ff4500;
+  border-radius: 20px;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

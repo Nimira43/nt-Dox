@@ -1,7 +1,9 @@
-export default function Home() {
+const Home = () => {
   return (
-    <div>
-      <h1>NT Docs</h1>
+    <div className='flex min-h-screen items-center justify-center'>
+      <p className='logo'>nt-Dox</p>
     </div>    
   )
 }
+
+export default Home
