@@ -9,7 +9,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'NT Docs',
-  description: 'Next JS 15, Tailwind, TypeScript, Shadcn,',
+  description: 'Next JS 15, Tailwind, TypeScript, Shadcn, Tiptap',
 }
 
 export default function RootLayout({
