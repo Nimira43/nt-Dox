@@ -11,15 +11,9 @@
 .logo {
   font-family: 'Doto', sans-serif;
   font-weight: bolder;
-  font-size: 40px;
   font-style: italic;
   letter-spacing: 1px;
   color: #fffaf0;
-  background-color: #ff4500;
-  padding: 0 15px;
-  border: 6px dashed #fffaf0;
-  border-radius: 20px;
-  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.9);
 }
 
 @layer base {
