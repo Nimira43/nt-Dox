@@ -19,6 +19,10 @@ export const Editor = () => {
     },
     extensions: [
       StarterKit,
+      Table,
+      TableCell,
+      TableHeader,
+      TableRow,
       TaskItem.configure({
         nested: true,
       }) ,
