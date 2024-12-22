@@ -1,6 +1,8 @@
 'use client'
 
 import { useEditor, EditorContent } from '@tiptap/react'
+import TaskItem from '@tiptap/extension-task-item'
+import TaskList from '@tiptap/extension-task-list'
 import StarterKit from '@tiptap/starter-kit'
 
 export const Editor = () => {
