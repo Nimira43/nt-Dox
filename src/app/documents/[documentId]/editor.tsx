@@ -13,7 +13,13 @@ export const Editor = () => {
         class: 'focus:outline-none print:border-0 bg-[#fff] border border-[#ccc] flex flex-col min-h-[1054px] w-[816px] pt-10 pr-14 pb-10 cursor-text'
       },
     },
-    extensions: [StarterKit],
+    extensions: [
+      StarterKit,
+      TaskItem.configure({
+        nested: true,
+      }) ,
+      TaskList,
+    ],
     content: '<p>nt-Dox</p>',
   })
   return (
