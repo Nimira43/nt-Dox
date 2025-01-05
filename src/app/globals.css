@@ -108,7 +108,16 @@
 }
 
 .tiptap {
+  img {
+    display: block;
+    height: auto;
+    margin: 1.5rem 0;
+    max-width: 100%;
 
+    &.ProseMirror-selectednode {
+      outline: 3px solid var(--grey-dk);
+    }
+  }
   table {
     border-collapse: collapse;
     margin: 0;
@@ -146,7 +155,7 @@
     }
 
     .column-resize-handle {
-      background-color: var(--secondary);
+      background-color: var(--grey-dk);
       bottom: -2px;
       pointer-events: none;
       position: absolute;
